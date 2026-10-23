@@ -1,5 +1,5 @@
 # Homebrew formula for sping. .github/workflows/publish.yml renders it when a
-# release is published (LambdaBytes/sping, 1.7.1 and 35d292a176fb0b8f2a51eb70cfbac75f882c3d3f374b44c6830313acf2cd43be are that
+# release is published (LambdaBytes/sping, 1.8.0 and ba8508109bab003b5d5fd3333f188ab4ecb46a2d281ef78767fbea7c4a6a8ad4 are that
 # release's) and writes it to the tap, <owner>/homebrew-tap.
 #
 # The source is the tag's archive. GitHub keeps its contents, not
@@ -8,8 +8,8 @@
 class Sping < Formula
   desc "Terminal-native real-time connectivity monitor"
   homepage "https://github.com/LambdaBytes/sping"
-  url "https://github.com/LambdaBytes/sping/archive/refs/tags/v1.7.1.tar.gz"
-  sha256 "35d292a176fb0b8f2a51eb70cfbac75f882c3d3f374b44c6830313acf2cd43be"
+  url "https://github.com/LambdaBytes/sping/archive/refs/tags/v1.8.0.tar.gz"
+  sha256 "ba8508109bab003b5d5fd3333f188ab4ecb46a2d281ef78767fbea7c4a6a8ad4"
   license "MIT"
 
   depends_on "rust" => :build
